@@ -1,33 +1,78 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Cormorant SC', serif; */
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Rye', cursive;
+
 }
 
 a {
     text-decoration: none;
-    color: 000000;
+    color: 66717e;
 }
 
 .header {
-    height: 35vh;
+    height: 10vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-color: 7a7a7a;
-}
-
-.logo {
-    height: 75%;
+    background-color: 001829;
 }
 
 .list-nav {
     list-style: none;
+    display: inline-flex;
+    gap: 45px;
+
+}
+
+.logo {
+    height: 40%;
+    position: absolute;
+    justify-content: center;
+    top: 25px;
+    left: 300px;
+    margin-top: 80;
+}
+
+.section-inicio {
+    width: 100%;
     display: flex;
-    gap: 20px;
-
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 100px;
+    height: 50vh;
+    background-color: 002137;
+    
 }
 
-.a-nav {
-    font-weight: 600;
+.container-inicio {
+    width: 18%;
+    
 }
+
+.container-inicio p {
+    font-family: 'Tiro Gurmukhi', serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.container-inicio button {
+    width: 50%;
+    height: 50px;
+    background-color: 001523;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 40px;
+    min-width: 190px;
+}
+
+
+
+
