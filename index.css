@@ -1,30 +1,55 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     /* font-family: 'Cormorant SC', serif; */
     /* font-family: 'DM Serif Display', serif; */
-    font-family: 'Rye', cursive;
-
+    
 }
 
 a {
     text-decoration: none;
-    color: 66717e;
+    color: caf0f8;
+}
+
+
+@font-face {
+    font-family: Frontman;
+    src: url(./tipografia/rock/The\ Frontman.ttf)
+}
+
+.list-nav {
+    font-family: Frontman;
+}
+
+@font-face {
+    font-family: Frontman;
+    src: url(./tipografia/rock/The\ Frontman.ttf);
+}
+
+.boton {
+    font-family: Frontman;
 }
 
 .header {
-    height: 10vh;
+    height: vh;
+    width: 100%;
+    padding: 0px 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: 001829;
 }
 
 .list-nav {
     list-style: none;
-    display: inline-flex;
+    display: flex;
     gap: 45px;
 
+}
+
+.header img {
+    height: 295%;
 }
 
 .logo {
@@ -57,21 +82,23 @@ a {
     font-family: 'Tiro Gurmukhi', serif;
     font-size: 1.2em;
     font-weight: 300;
-    color: aliceblue;
+    color: caf0f8;
 }
 
 .container-inicio button {
     width: 50%;
     height: 50px;
     background-color: 001523;
-    color: white;
-    font-size: 1.4em;
-    font-weight: 500;
+    color: caf0f8;
+    font-size: 1em;
+    font-weight: 100;
     border-radius: 12px;
     border-style: none;
     margin-top: 40px;
     min-width: 190px;
 }
+
+
 
 
 
