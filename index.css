@@ -14,27 +14,45 @@ a {
 
 
 @font-face {
-    font-family: Frontman;
-    src: url(./tipografia/rock/The\ Frontman.ttf)
+    font-family: docktrin;
+    src: url(./tipografia/Docktrin/docktrin.ttf)
 }
 
 .list-nav {
-    font-family: Frontman;
+    font-family: doctrin;
 }
 
 @font-face {
-    font-family: Frontman;
-    src: url(./tipografia/rock/The\ Frontman.ttf);
+    font-family: doctrin;
+    src: url(./tipografia/Docktrin/docktrin.ttf);
 }
 
 .boton {
-    font-family: Frontman;
+    font-family: doctrin;
+}
+
+@font-face{
+    font-family: Rosela;
+    src: url(./tipografia/rosela/Rosela.ttf);
+}
+
+.frase {
+    font-family: Rosela;
+}
+
+@font-face {
+    font-family: Rosela;
+    src: url(./tipografia/rosela/Rosela.ttf);
+}
+
+.frase1 {
+    font-family: Rosela;
 }
 
 .header {
-    height: 10vh;
+    height: 8vh;
     width: 100%;
-    padding: 0px 50px;
+    padding: 0px 600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,12 +66,9 @@ a {
 .list-nav {
     list-style: none;
     display: flex;
-    gap: 45px;
+    gap: 80px;
 }
 
-.header img {
-    height: 295%;
-}
 
 .body {
     background-color: 00253D;
@@ -69,7 +84,7 @@ a {
 
 .contenedor-turno {
     width: 70%;
-    height: 80%;
+    height: 55%;
     border-radius: 20px;
     box-shadow: 1px 1px 13px 8px rgba(0,0,0,0.75) inset;
     -webkit-box-shadow: 1px 1px 13px 8px rgba(0,0,0,0.75) inset;
@@ -80,24 +95,24 @@ a {
 }
 
 .contenedor p {
-    font-family: 'Tiro Gurmukhi', serif;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 300;
     color: caf0f8;
+    display: block;
 }
 
 .frase {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
 }
 
 .frase1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    
 }
 
 .contenedor button {
@@ -105,7 +120,7 @@ a {
     height: 50px;
     background-color: 001523;
     color: caf0f8;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 100;
     border-radius: 12px;
     border-style: none;
@@ -114,12 +129,7 @@ a {
     gap: 50px;
 }
 
-.logo {
-    width: 15%;
-    min-width: 300px;
-    margin-left: 5%;
-    margin-top: 5%;
-}
+
 
 
 
