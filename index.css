@@ -170,6 +170,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -178,15 +179,11 @@ p {
     height: 300px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    
+    margin-top: 50px;
     text-align: center;
     transition: all 0.25s;
     
 }
-
-
-
-
 
 .card:hover {
     transform: translateY(-15px);
@@ -201,90 +198,62 @@ p {
     font-size: 16px;
     font-weight: 300;
 }
+
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    background-color: 000C14;
+    row-gap: 10px;
+}
+
+.grid {
+    column-gap: 100px;
+    row-gap: 10px;
+}
+
+.grid1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo3{
+    color: caf0f8;
+    font-size: 20px;
+    font-weight: 50;
+    text-shadow: -2px 4px 5px rgba(0,12,20,0.52);
+}
+
+.icono {
+    width: 3%;
+}
+
+.icono2 {
+    width: 3%;
+
+}
+
+.grid2 {
+    width: 20%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-final {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
 
 
 
-/*.contenedor-servicios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
 
-.corte {
-    width: 25%;
-    color: 000C14; 
-    font-size: 28px; 
-    font-weight: 400; 
-    text-align: center; 
-    background: #889ccf; 
-    margin: 0 0 70px; 
-    overflow: hidden; 
-    position: relative;
-    border-radius: 50px 52px 39px 40px;
--webkit-border-radius: 50px 52px 39px 40px;
--moz-border-radius: 50px 52px 39px 40px;
-border: 4px dotted #00497a;
-}
-
-.barba {
-    width: 25%;
-    color: 000C14; 
-    font-size: 28px; 
-    font-weight: 400; 
-    text-align: center; 
-    background: #889ccf; 
-    margin: 0 0 70px; 
-    overflow: hidden; 
-    position: relative;
-    border-radius: 50px 52px 39px 40px;
--webkit-border-radius: 50px 52px 39px 40px;
--moz-border-radius: 50px 52px 39px 40px;
-border: 4px dotted #00497a;
-}
-
-.tratamiento {
-    width: 25%;
-    color: 000C14; 
-    font-size: 28px; 
-    font-weight: 400; 
-    text-align: center; 
-    background: #889ccf; 
-    margin: 0 0 70px; 
-    overflow: hidden; 
-    position: relative;
-    border-radius: 50px 52px 39px 40px;
--webkit-border-radius: 50px 52px 39px 40px;
--moz-border-radius: 50px 52px 39px 40px;
-border: 4px dotted #00497a;
-}
-
-.niños {
-    width: 25%;
-    color: 000C14; 
-    font-size: 28px; 
-    font-weight: 400; 
-    text-align: center; 
-    background: #889ccf; 
-    margin: 0 0 70px; 
-    overflow: hidden; 
-    position: relative;
-    border-radius: 50px 52px 39px 40px;
--webkit-border-radius: 50px 52px 39px 40px;
--moz-border-radius: 50px 52px 39px 40px;
-border: 4px dotted #00497a;
-}
-
-.parrafo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-
-
+    
 
 
 
